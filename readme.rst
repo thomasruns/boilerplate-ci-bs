@@ -1,8 +1,7 @@
 #########################################
-CodeIgniter/Bootstrap/J-Query Boilerplate
+CodeIgniter/Bootstrap/jQuery Boilerplate
 #########################################
-This is a boilerplate for CodeIgniter web apps that comes with 3 different <https://bootswatch.com|BootSwatch> themes.
-
+This is a boilerplate for CodeIgniter web apps that comes with 3 different `BootSwatch <http://bootswatch.com>`_ themes.
 
 ********
 Features
@@ -17,9 +16,9 @@ Features
 *****************
 Composer Packages
 *****************
-guzzlehttp/guzzle: v6.5
-php-http/guzzle6-adapter: v2.0
-sparkpost/sparkpost: v2.2
+- guzzlehttp/guzzle: v6.5
+- php-http/guzzle6-adapter: v2.0
+- sparkpost/sparkpost: v2.2
 
 
 *******************
