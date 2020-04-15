@@ -1,0 +1,17 @@
+/* UTILITY CLASSES */
+.orange { color: #f78d03; }
+.red { color: #a31818; }
+.white { color: #fff; } 
+.bg-white { background-color: #fff; }
+.bg-gray { background-color: #ededed; }
+.clickable { cursor: pointer; }
+
+/* NAVBAR OVERRIDE */
+.navbar {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.432);
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.432);
+}
+
+.home-text {
+    font-size: 18px;
+}
