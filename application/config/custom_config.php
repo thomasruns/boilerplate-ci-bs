@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 $config['site_name'] = 'CI Boilerplate';
-
+$config['bootstrap_theme'] = 'yeti';
 $config['default_timezone'] = 'America/Los_Angeles';
 
 switch(ENVIRONMENT) {

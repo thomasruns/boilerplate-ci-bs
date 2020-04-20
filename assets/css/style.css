@@ -2,9 +2,13 @@
 .orange { color: #f78d03; }
 .red { color: #a31818; }
 .white { color: #fff; } 
+.gray { color: #444; }
+
 .bg-white { background-color: #fff; }
 .bg-gray { background-color: #ededed; }
+
 .clickable { cursor: pointer; }
+.spacer { padding: 5px; }
 
 /* NAVBAR OVERRIDE */
 .navbar {
@@ -15,3 +19,6 @@
 .home-text {
     font-size: 18px;
 }
+
+/* PROFILE */
+.profile_img_rounded { border-radius: 50%; }

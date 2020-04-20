@@ -6,6 +6,11 @@ $maintenance_mode = false;
 if ($this->uri->segment(1) === 'maintenance') {
     $maintenance_mode = true;
 }
+
+// Get theme
+$theme = $this->config->item('bootstrap_theme');
+$theme = !empty($theme) ? $theme : 'solar';
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,9 +20,9 @@ if ($this->uri->segment(1) === 'maintenance') {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <link href="<?=base_url()?>assets/css/themes/solar/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="<?=base_url()?>assets/css/themes/<?=$theme;?>/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link href="<?=base_url()?>assets/css/jquery-ui/jquery-ui.min.css" rel="stylesheet">
-    <link href="<?=base_url()?>assets/css/themes/solar/custom.min.css" rel="stylesheet">
+    <link href="<?=base_url()?>assets/css/themes/<?=$theme;?>/custom.min.css" rel="stylesheet">
     <link href="<?=base_url()?>assets/css/style.css" rel="stylesheet">
     <link href="<?=base_url()?>assets/css/fontawesome/css/all.min.css" rel="stylesheet">
 
